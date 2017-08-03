@@ -1,0 +1,23 @@
+<ion-view title="Login" hide-nav-bar="true" id="page4">
+  <ion-content padding="true" class="manual-ios-statusbar-padding">
+    <div>
+      <img src="img/DcAJ7SRfR3ao6eiy0GyX_login_photo.png" style="display: block; width: 100%; height: auto; margin-left: auto; margin-right: auto;">
+    </div>
+    <div class="spacer" style="width: 300px; height: 18px;"></div>
+    <form id="login-form1" class="list">
+      <ion-list id="login-list2">
+        <label class="item item-input" id="login-input1">
+          <span class="input-label">Email</span>
+          <input type="email" placeholder="">
+        </label>
+        <label class="item item-input" id="login-input2">
+          <span class="input-label">Password</span>
+          <input type="password" placeholder="">
+        </label>
+      </ion-list>
+      <div class="spacer" style="height: 40px;"></div>
+      <a ui-sref="menu.myProfile()" id="login-button1" class="button button-positive button-block icon-right ion-log-in">Log in</a>
+      <a ui-sref="signup()" id="login-button2" class="button button-positive button-block button-clear">Or create an account</a>
+    </form>
+  </ion-content>
+</ion-view>
